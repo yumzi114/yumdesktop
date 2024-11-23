@@ -1,8 +1,6 @@
 [workspace]
-members = [
-    "pefbin","pefapi"
-] 
-default-members = ["pefbin"]
+members = ["desktop_bin", "desktop_lib"] 
+default-members = ["desktop_bin"]
 [workspace.package]
 version = "0.0.2"
 edition = "2021"
