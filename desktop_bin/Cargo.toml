@@ -1,0 +1,16 @@
+[package]
+name = "desktop_bin"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+readme.workspace = true
+license.workspace = true
+
+[dependencies]
+eframe = "0.29.1"
+catppuccin-egui = { version = "5.3.1", default-features = false, features = ["egui29"] }
+egui-winit = "0.29.1"
+winit = "0.30.5"
+serde = { version = "1.0.215", features = ["derive"] }
+strum = "0.26.3"
+strum_macros = "0.26.4"
